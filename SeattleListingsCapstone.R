@@ -85,11 +85,7 @@
 if(!require(pacman)) install.packages("pacman", repos = "http://cran.us.r-project.org")
 library(pacman)
 pacman::p_load(tidyverse, readr, data.table, icesTAF, caret, lubridate, 
-<<<<<<< HEAD
                ggthemes, ggplot2, glmnet, scales, stringr, dplyr, ggmap, ggcorrplot, 
-=======
-               ggthemes, glmnet, scales, stringr, dplyr, ggmap, ggcorrplot, 
->>>>>>> 0ba4155bfdf112903568ab8d6b876dd4f13cf857
                treemapify, rpart, nnet, formatR, rmarkdown, knitr)
 
 ### Data Preparation ###
